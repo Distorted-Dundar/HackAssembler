@@ -12,7 +12,7 @@ More specifically this is a project to translate hack assembly (Nand2Tetris asse
 that is executed on a custom-made virtual Computer (The hack Computer). 
 See [N2T part 1](https://www.nand2tetris.org)
 
-### Built With
+### Built With / Tools Used
 
 * Java
 * Assembler (Provided Nand2Tetris Assembler for debugging)
@@ -22,7 +22,8 @@ See [N2T part 1](https://www.nand2tetris.org)
 - Applying Dependency Inversion Principle
 - Applying Interface Separation Principle
 - Reducing complicated code into functions (applying Clean Code advice)
-- Making Code readable
+- Making Code readable (applying Clean Code advice)
+- Applying Regex's
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -34,7 +35,7 @@ You can debug what directory java is on by doing the following print statement
 System.out.println(System.getProperty("user.dir"));
 ```
 
-### Prerequisites
+### Prerequisites / Steps
 
 knowledge of editing configurations is crucial.
 1. Edit the configurations of **HackAssembler.java**
